@@ -1,0 +1,28 @@
+.welcome-message{
+    max-width: 600px;
+    margin: 0 auto;
+
+    img{
+        width: 56px;
+        height: 56px;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-family: 'Merriweather', serif;
+        font-weight: lighter;
+        font-size: 35px;
+        color: #F4F4F4;
+        margin: 0 0 20px;
+    }
+
+    p{
+        font-size: 22px;
+        color: #F4F4F4;
+        font-weight: lighter;
+        margin: 0 0 50px;
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "on_boarding",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "npm-run-all": "^4.1.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "scss": "cat ./src/assets/scss/*.scss ./src/components/**/*.scss | node-sass > ./src/style.css",
+    "watch": "nodemon -e scss -x \"npm run scss\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "clean-css": "^4.1.11",
+    "concat": "^1.0.3",
+    "concat-glob-cli": "^0.1.0",
+    "node-sass": "^4.8.3",
+    "nodemon": "^1.17.3",
+    "npm-watch": "^0.3.0",
+    "sass-watch": "^0.1.0"
+  }
+}

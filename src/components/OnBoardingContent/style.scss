@@ -1,0 +1,14 @@
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    opacity: 1.0;
+    @include transition(all, 0.5s);
+
+    &.hidden{
+        opacity: 0.0;
+    }
+}
